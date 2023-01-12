@@ -41,6 +41,7 @@ main {
 
 article {
     background-color: dimgray;
+    padding-bottom: 30px;
 }
 
 h2 {
@@ -56,6 +57,13 @@ article p {
     line-height: 1.8em;
     text-indent: 15px;
     text-align: justify;
+}
+
+.imgedit {
+    display: block;
+    margin: auto;
+    border: 4px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.523);
 }
 
 aside {
