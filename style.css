@@ -23,8 +23,9 @@ header {
 h1 {
     color: white;
     text-align: center;
-    text-shadow: 3px 3px 5px black;
-    font-size: 5vw;
+    text-shadow: 5px 5px 8px black;
+    font-size: 8vw;
+    padding-top: 50px;
     font-family: 'Rubik Dirt', cursive;
 }
 
