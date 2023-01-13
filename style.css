@@ -4,6 +4,11 @@ body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    background-image: url(imagens/wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -17,6 +22,7 @@ header {
 h1 {
     color: white;
     text-align: center;
+    text-shadow: 3px 3px 5px black;
 }
 
 nav {
@@ -30,6 +36,10 @@ nav a {
     background-color: black;
     color: white;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -48,6 +58,7 @@ h2 {
     color: white;
     margin-left: 15px;
     padding-top: 10px;
+    text-shadow: 3px 3px 5px black;
 }
 
 article p {
@@ -71,7 +82,8 @@ aside {
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
-    padding: 5px;
+    padding: 5px 0px;
+
 }
 
 aside ul {
@@ -82,6 +94,10 @@ aside ul {
 aside a {
     color: black;
     text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
 }
 
 
@@ -113,6 +129,21 @@ footer p {
     padding: 10px 0px 10px 0px;
 }
 
-.diretoria {
-    
+#diretoress {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+.photo {
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.519);
+   border: 4px solid black;
+   display: inline-block;
+}
+
+
+
+.titulodiretores {
+    text-align: center;
 }
