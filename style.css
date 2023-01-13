@@ -20,6 +20,13 @@ header {
     min-height: 300px;
 }
 
+header > div {
+    display: block;
+    padding-top: 100px;
+    padding-left: 15px;
+    position: initial;
+}
+
 h1 {
     color: rgb(255, 255, 255);
     text-align: center;
