@@ -10,11 +10,10 @@ body {
 header {
     background-color: black;
     background-image: url(imagens/wallpaperheader.jpg);
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    max-width: 1200px;
-    min-width: 300px;
+    width: 100%;
     margin: auto;
     padding-top: 15px;
     max-height: 500px;
@@ -22,7 +21,7 @@ header {
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-shadow: 5px 5px 8px black;
     font-size: 8vw;
@@ -42,6 +41,7 @@ nav a {
     background-color: rgb(255, 253, 253);
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-family: 'Rubik Dirt', cursive;
 }
 
 nav a:hover {
