@@ -91,13 +91,25 @@ article p {
     box-shadow: inset 8px 8px 13px rgba(0, 0, 0, 0.704);
 }
 
-#rolavel {
-    background-image: url(imagens/wallpaper.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 3px black;
-    padding: 20px;
+@media screen and (max-width: 400px) {
+    #rolavel {
+        background-image: url(imagens/wallpaper-p.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }   
+}
+
+@media screen and (max-width: 1800px) {
+    #rolavel {
+        background-image: url(imagens/wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    
 }
 
 #rolavel > p {
