@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infectus Brasil</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
     <header>
@@ -13,11 +14,17 @@
             INFECTUS BRASIL
         </h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="diretoria.html">Comando</a>
-        <a href="galeria.html">Galeria</a><a href="https://www.instagram.com/infectusmc/" target="_blank">Instagram</a>
-    </nav>
+    <span id="sanduiche" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <menu id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="diretoria.html">Comando</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="#">Seja Membro</a></li>
+            <li><a href="https://www.instagram.com/infectusmc/" target="_blank">Instagram</a></li>
+            <li><a href="#">Playlist</a></li>
+        </ul>
+    </menu>
     <main>
         <article>
             <h2>
@@ -26,46 +33,36 @@
             <p>
                 O <strong>Infectus MC</strong> surgiu da união entre seis amigos motociclistas de longa data. Os fundadores <strong>Alessandro Góis</strong>, <strong>Clécio Silva</strong>, <strong>Major Noronha</strong>, <strong>Vonne Marques</strong>, <strong>Gabriel Braz</strong> e <strong>Ernande Santos</strong> decidiram criar um motoclube que respeitasse o <strong>tradicionalismo</strong>, com <strong>hierarquia</strong>, <strong>respeito</strong>, <strong>dedicação</strong> e <strong>espírito de família</strong> entre os membros. Após negociações dentro do meio, desenvolvimento do estatuto e divisão da diretoria, a data da fundação foi definida.
             </p>
-            <p>
-                No dia <strong>04 de junho de 2022</strong>, nasceu em <strong>Aracaju</strong>, oficialmente, o <strong>Infectus MC</strong> com 15 membros. Sendo eles, 06 escudos fechados, 06 meio-escudos e 03 prósperos. O evento de fundação foi prestigiado por vários motoclubes locais e de fora do estado. Dentre eles, estava o <strong>Abutres MC</strong>, que além de prestigiar o evento, também foi o <strong>motoclube padrinho</strong> do <strong>Infectus MC</strong>. Naquele dia, estava consolidada a entrada do <strong>Infectus</strong> no <strong>mundo do motoclubismo</strong>.
-            </p>
 
-            <picture>
-                <source media="(max-width: 600px )" srcset="imagens/Infectus-p.jpg">
-                <source media="(max-width: 900px )" srcset="imagens/Infectus-m.jpg">
-                <img src="imagens/Infectus.jpg" alt="Fundação Infectus" class="imgedit" >
-            </picture>
+            <img src="imagens/fundacao-p.jpg" alt="Dia da Fundação do Infectus MC" id="fundacao">
+
+            <p>
+                No dia <strong>04 de junho de 2022</strong>, nasceu em <strong>Aracaju</strong>, oficialmente, o <strong>Infectus MC</strong> com 15 membros. Sendo eles, 06 escudos fechados, 06 meio-escudos e 03 prósperos. O evento de fundação foi prestigiado por vários motoclubes locais e de fora do estado. Dentre eles, estava o <strong>Abutres MC</strong>, que além de prestigiar o evento, também foi o <strong>motoclube padrinho</strong> do <strong>Infectus MC</strong>. Naquele grande dia, estava consolidada a entrada do <strong>Infectus</strong> no <strong>mundo do motoclubismo</strong>.
+            </p>
+            
+                <img src="imagens/img-p.jpg" alt="motocicletas" id="motocicleta">
+
         </article>
-        <section id="rolavel">
+        <section>
+                <h2><strong>NASCEMOS FORTES,<br>SEMPRE FORTES. </strong></h2>
                 <p>
-                    <strong>NASCEMOS FORTES, SEMPRE FORTES. </strong><br>
-                <br>
-                A <strong>filosofia</strong> que o <strong>Infectus MC</strong> carrega é <br>
-                a <strong>união</strong> entre seus membros, com enorme <br>
-                dedicação da diretoria para todo o clube. <br>
-                E como toda <strong>união faz a força</strong>, podemos te <br>
-                certificar que somos sempre fortes, pois <br>
-                estamos sempre unidos nos melhores e<br>
-                nos piores momentos. Como uma família. <br>
-                E isso não surgiu da noite para o dia... <br>
-                Desde antes da fundação, em reuniões entre <br>
-                os membros do clube, já se discutia esse <br>
-                tipo de assunto. O que possibilitou todo <br>
-                o foco do MC para essa <strong>parceria</strong> entre os <br>
-                seus integrantes. Desde o respeito ao cargo <br>
-                mais alto, que é o presidente, até o membro <br>
-                que acabou de entrar, o famoso próspero. <br>
-                <br>
-                Sendo assim, <strong>NASCEMOS FORTES</strong>; <br>
-                E estamos <strong>SEMPRE FORTES</strong>. <br>
+                    A <strong>filosofia</strong> que o <strong>Infectus MC</strong> carrega é
+                    a <strong>união</strong> entre seus membros, com enorme dedicação da diretoria para todo o clube. 
+                    E como toda <strong>união faz a força</strong>, podemos te certificar que somos sempre fortes, pois estamos sempre unidos nos melhores e nos piores momentos. Como uma família. 
+                    E isso não surgiu da noite para o dia... 
+                    Desde antes da fundação, em reuniões entre os membros do clube, já se discutia esse tipo de assunto. O que possibilitou todo o foco do MC para essa <strong>parceria</strong> entre os seus integrantes. Desde o respeito ao cargo mais alto, que é o presidente, até o membro que acabou de entrar, o famoso próspero. <br> <br> 
                 </p>
+                <h3>
+                    Sendo assim, <strong>NASCEMOS FORTES</strong>;<br>
+                        E estamos <strong>SEMPRE FORTES</strong>.
+                </h3>
         </section>
     </main>
     <aside>
-        <h3>
+        <h3 onclick="clickAside()">
             Quer saber mais sobre motoclubismo?
         </h3>
-        <ul>
+        <ul id="lista">
             <li><a href="#">Origem</a></li>
             <li><a href="#">Hierarquia</a></li>
             <li><a href="#">Sinais e comandos</a></li>
@@ -82,5 +79,6 @@
             Aracaju, SE
         </p>
     </footer>
+    <script src="menu.js"></script>
 </body>
 </html>

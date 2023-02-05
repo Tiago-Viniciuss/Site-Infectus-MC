@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infectus Brasil</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body class="fundo">
     <header>
@@ -13,27 +14,25 @@
             INFECTUS BRASIL
         </h1>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="diretoria.html">Comando</a>
-        <a href="galeria.html">Galeria</a><a href="https://www.instagram.com/infectusmc/" target="_blank">Instagram</a>
-    </nav>
+    <span id="sanduiche" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <menu id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Comando</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="#">Seja Membro</a></li>
+            <li><a href="https://www.instagram.com/infectusmc/" target="_blank">Instagram</a></li>
+            <li><a href="#">Playlist</a></li>
+        </ul>
+    </menu>
     <main>
         <article >
             <h2 class="titulodiretores">
                 Conheça nossos diretores:
             </h2>
                <div id="diretoress">
-                   <a href="https://www.instagram.com/alessandrogois_o/" target="_blank"><img src="imagens/1.png" alt="" class="photo"></a>
-                   <a href="https://www.instagram.com/clecioss/" target="_blank"><img src="imagens/2.png" alt="" class="photo"></a>
-                   <a href="https://www.instagram.com/maj_noronha/" target="_blank"><img src="imagens/3.png" alt="" class="photo"></a>
-                   <a href="https://www.instagram.com/voonnemarques" target="_blank" ><img src="imagens/4.png" alt="" class="photo"></a>
-                   <a href="https://www.instagram.com/gabiru_infectus_mc/" target="_blank"><img src="imagens/5.png" alt="" class="photo"></a>
-                   <a href="https://www.instagram.com/ernande974/" target="_blank"><img src="imagens/6.png" alt="" class="photo"></a>
-                   
-               </div>
                 
-                
+               </div>     
         </article>
     </main>
     <aside>
@@ -57,5 +56,6 @@
             Aracaju, SE
         </p>
     </footer>
+    <script src="menu.js"></script>
 </body>
 </html>
