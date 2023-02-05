@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
 
 body {
-    background-image: linear-gradient(to bottom, black, black, gray);
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
@@ -11,7 +11,7 @@ body {
 header {
     background-color: black;
     width: 100vw;
-    height: 60px;
+    height: 75px;
     position: fixed;
     z-index: 99;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
@@ -36,6 +36,7 @@ h1 {
 
 #sanduiche {
     color: white;
+    background-color: black;
     font-size: 40px;
     cursor: pointer;
     position: fixed;
@@ -45,7 +46,7 @@ h1 {
 }
 
 menu {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(1, 1, 1, 0.925);
     padding-top: 60px;
     padding-left: 5px;
     width: 80vw;
@@ -71,8 +72,7 @@ menu ul li {
 
 menu a {
     padding: 5px 5px;
-    background-color: rgb(255, 253, 253);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 252, 252);
     text-decoration: none;
     font-family: 'Rubik Dirt', cursive;
 }
@@ -83,10 +83,7 @@ menu a:hover {
 
 main {
     background-color: white;
-    max-width: 1200px;
-    min-width: 300px;
     margin: auto;
-    
 }
 
 article {
@@ -96,8 +93,9 @@ article {
 
 article h2 {
     color: white;
+    margin-top: 0px;
     margin-left: 30px;
-    padding-top: 70px;
+    padding-top: 90px;
     text-shadow: 3px 3px 5px black;
 
 }
@@ -111,17 +109,37 @@ article p {
     text-align: justify;
 }
 
+.container {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.children {
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(imagens/fotoprincipal.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 40%;
+} 
+
 #fundacao {
     display: block;
     margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
 
 }
 
 #motocicleta {
     display: block;
     margin: auto;
-    border: 4px solid rgb(255, 255, 255);
-    box-shadow: inset 8px 8px 13px rgba(0, 0, 0, 0.704);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 7px;
 }
 
 
@@ -151,6 +169,7 @@ aside {
     margin: auto;
     padding: 0px;
     cursor: pointer;
+    border-radius: 10px 10px 0px 0px;
 }
 
 
@@ -172,19 +191,19 @@ aside h3 {
     list-style-type: none;
     padding: 0px;
     display: none;
-    border: 3px solid black;
     z-index: 99;
+    box-shadow: 2px 2px 5px black;
 }
 
 #lista > li {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.874);
     padding: 8px;
     font-size: 1.2em;
 }
 
 
 #lista a {
-    color: black;
+    color: rgb(255, 252, 252);
     text-decoration: none;
     width: 50px;
 }
