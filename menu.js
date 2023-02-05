@@ -16,12 +16,3 @@ if (window.innerWidth >= 768) {
     menu.style.display = 'none'
 }
 }
-
-
-function clickAside() {
-    if (lista.style.display == 'block'){
-        lista.style.display = 'none'
-    } else {
-        lista.style.display = 'block'
-    }
-}

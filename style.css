@@ -160,34 +160,30 @@ aside {
     background-color:black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    width: 80vw;
     margin: auto;
     padding: 0px;
     cursor: pointer;
-    border-radius: 10px 10px 0px 0px;
-}
-
-
-aside:hover {
-    background-color: rgb(14, 14, 14);
-    color: white;
-    text-decoration: underline;
+    border-radius: 10px;
 }
 
 aside h3 {
+    font-size: 1.5em;
+    text-align: center;
     margin: 0px;
     padding: 20px;
 }
 
 #lista {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
-    text-align: center;
+    margin: auto;
+    width: 260px;
+    text-align: justify;
     font-weight: bold;
     list-style-type: none;
-    padding: 0px;
-    display: none;
-    z-index: 99;
-    box-shadow: 2px 2px 5px black;
+    padding: 10px 0px;
+    display: block;
 }
 
 #lista > li {
@@ -207,11 +203,6 @@ aside h3 {
     text-decoration: underline;
 }
 
-
-h3 {
-    text-align: center;
-    padding-bottom: 20px;
-}
 
 footer {
     background-color: white;
