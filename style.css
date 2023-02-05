@@ -4,7 +4,8 @@
 body {
     background-image: linear-gradient(to bottom, black, black, gray);
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -13,6 +14,7 @@ header {
     height: 60px;
     position: fixed;
     z-index: 99;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
 }
 
 
@@ -47,12 +49,13 @@ menu {
     padding-top: 60px;
     padding-left: 5px;
     width: 80vw;
-    height: 400px;
+    height: 700px;
     position: fixed;
     display: none;
 }
 
 menu ul {
+    font-size: 1.3em;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -83,6 +86,7 @@ main {
     max-width: 1200px;
     min-width: 300px;
     margin: auto;
+    
 }
 
 article {
@@ -120,6 +124,7 @@ article p {
     box-shadow: inset 8px 8px 13px rgba(0, 0, 0, 0.704);
 }
 
+
 section h2 {
     color: black;
     font-size: 1.1em;
@@ -134,39 +139,53 @@ section p {
     text-align: justify;
     padding: 0px 20px 20px 20px;
     text-indent: 20px;
+    margin-bottom: 0px;
     line-height: 1.8em;
 }
 
-section h3 {
-    text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 0px;
+
+aside {
+    background-color:black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 0px;
+    cursor: pointer;
 }
 
 
+aside:hover {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
 
-aside {
-    background-color: grey;
-    width: 90vw;
-    margin: auto;
-    padding: 5px 0px;
-
+aside h3 {
+    margin: 0px;
+    padding: 20px;
 }
 
 aside #lista {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
     text-align: center;
+    font-weight: bold;
     list-style-type: none;
     padding: 0px;
     display: none;
+    border: 3px solid black;
 }
 
 aside > ul > li {
     background-color: white;
+    padding: 8px;
+    font-size: 1.2em;
 }
+
 
 aside a {
     color: black;
     text-decoration: none;
+    width: 50px;
 }
 
 aside a:hover {
@@ -181,27 +200,19 @@ h3 {
 
 footer {
     background-color: white;
-    max-width: 1200px;
-    min-width: 300px;
+    color: black;
+    height: 100px;
     margin: auto;
-}
-
-footer a {
-    color: white;
-    background-color: black;
-    padding: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
     text-align: center;
+    margin: 0px;
 }
 
-#linkfooter {
-    color: white;
-    background-color: black; 
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-}
 
 #diretoress {
     margin-left: 20px;
