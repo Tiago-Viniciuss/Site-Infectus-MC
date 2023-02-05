@@ -110,21 +110,16 @@ article p {
 }
 
 .container {
+    padding-top: 50px;
     width: 100vw;
     height: 500px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 
 .children {
-    width: 100vw;
-    height: 400px;
     background-color: rgb(255, 255, 255);
-    background-image: url(imagens/fotoprincipal.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center 40%;
 } 
 
 #fundacao {
