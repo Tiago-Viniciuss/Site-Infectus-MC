@@ -9,28 +9,30 @@ body {
 }
 
 header {
-    background-color: black;
-    width: 100vw;
+    background-color: rgb(0, 0, 0);
     height: 75px;
+    width: 100%;
     position: fixed;
+    top: 0;
     z-index: 99;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
 }
 
 
 h1 {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
     text-shadow: 5px 5px 8px black;
-    font-size: 8vw;
+    font-size: 7vw;
+    width: 100vw;
+    height: 50px;
     padding-top: 10px;
     margin: 0px;
     font-family: 'Rubik Dirt', cursive;
     position: fixed;
-    width: 100vw;
     top: 0;
-    left: 2%;
+    left: 5%;
     z-index: 99;
 }
 
@@ -52,7 +54,9 @@ menu {
     width: 80vw;
     height: 700px;
     position: fixed;
+    top: 0;
     display: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.919);
 }
 
 menu ul {
@@ -160,8 +164,8 @@ aside {
     background-color:black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    width: 80vw;
-    height: 410px;
+    width: 90vw;
+    height: 460px;
     margin: auto;
     margin-top: 25px;
     margin-bottom: 15px;
@@ -182,8 +186,8 @@ aside h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
     margin: auto;
-    width: 200px;
-    text-align: justify;
+    width: 150px;
+    text-align: left;
     font-weight: bold;
     list-style-type: circle;
     padding: 10px 0px;
@@ -315,4 +319,129 @@ footer p {
 
 #ernande:hover {
     background-image: none;
+}
+
+
+/*
+    Estilo da página GALERIA
+*/
+
+
+#headergaleria {
+    height: 100px;
+    position: fixed;
+
+}
+
+#sectiongaleria {
+    margin-top: 130px;
+}
+
+
+#fundogaleria {
+    height: 6000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotosgaleria {
+    width: 280px;
+    height: 280px;
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#img1 {
+    background-image: url(imagens/GALERIA12.jpg);
+}
+
+#img2 {
+    background-image: url(imagens/GALERIA16.jpg);
+}
+
+#img3 {
+    background-image: url(imagens/GALERIA7.jpg);
+}
+
+#img4 {
+    background-image: url(imagens/GALERIA20.jpg);
+}
+
+#img5 {
+    background-image: url(imagens/GALERIA21.jpg);
+}
+
+#img6 {
+    background-image: url();
+}
+
+#img7 {
+    background-image: url();
+}
+
+#img8 {
+   background-image: url(); 
+}
+
+#img9 {
+    background-image: url();
+}
+
+#img10 {
+    background-image: url();
+}
+
+#img11 {
+    background-image: url();
+}
+
+#img12 {
+    background-image: url();
+}
+
+#img13 {
+    background-image: url();
+}
+
+
+#img14 {
+    background-image: url();
+}
+
+#img15 {
+    background-image: url();
+}
+
+#img16 {
+    background-image: url();
+}
+
+#img17 {
+   background-image: url(); 
+}
+
+#img18 {
+   background-image: url(); 
+}
+
+#img19 {
+   background-image: url(); 
+}
+
+#img20 {
+    background-image: url();
+}
+
+#img21 {
+    background-image: url();
+}
+
+#img22 {
+    
 }
