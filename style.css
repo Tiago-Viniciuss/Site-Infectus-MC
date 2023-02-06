@@ -272,7 +272,7 @@ footer p {
 
 
 #alessandro {
-    background-image: url(imagens/PRESIDENTE.png);
+    background-image: url(imagens/ALESSANDRO.jpg);
 }
 
 #alessandro:hover {
@@ -328,18 +328,19 @@ footer p {
 
 
 #headergaleria {
-    height: 100px;
+    height: 70px;
     position: fixed;
 
 }
 
 #sectiongaleria {
     margin-top: 130px;
+    margin-bottom: 50px;
 }
 
 
 #fundogaleria {
-    height: 6000px;
+    height: 6210px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -347,13 +348,25 @@ footer p {
     align-items: center;
 }
 
+.zoomborder {
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
 .fotosgaleria {
     width: 280px;
     height: 280px;
     background-color: black;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     background-size: cover;
     background-repeat: no-repeat;
+    transition: all .5s;
+}
+
+.fotosgaleria:hover {
+    transform: scale(1.1);
 }
 
 
@@ -362,7 +375,7 @@ footer p {
 }
 
 #img2 {
-    background-image: url(imagens/GALERIA16.jpg);
+    background-image: url(imagens/GALERIA15.png);
 }
 
 #img3 {
@@ -370,7 +383,7 @@ footer p {
 }
 
 #img4 {
-    background-image: url(imagens/GALERIA20.jpg);
+    background-image: url(imagens/GALERIA13.jpg);
 }
 
 #img5 {
@@ -378,15 +391,15 @@ footer p {
 }
 
 #img6 {
-    background-image: url(imagens/GALERIA21.jpg);
+    background-image: url(imagens/GALERIA30.png);
 }
 
 #img7 {
-    background-image: url(imagens/GALERIA15.png);
+    background-image: url(imagens/GALERIA16.jpg);
 }
 
 #img8 {
-   background-image: url(imagens/GALERIA27.jpg); 
+   background-image: url(imagens/GALERIA4.jpg); 
 }
 
 #img9 {
@@ -394,52 +407,52 @@ footer p {
 }
 
 #img10 {
-    background-image: url();
+    background-image: url(imagens/GALERIA14.jpg);
 }
 
 #img11 {
-    background-image: url();
+    background-image: url(imagens/GALERIA9.png);
 }
 
 #img12 {
-    background-image: url();
+    background-image: url(imagens/GALERIA20.jpg);
 }
 
 #img13 {
-    background-image: url();
+    background-image: url(imagens/GALERIA2.jpg);
 }
 
 
 #img14 {
-    background-image: url();
+    background-image: url(imagens/GALERIA25.png);
 }
 
 #img15 {
-    background-image: url();
+    background-image: url(imagens/GALERIA29.png);
 }
 
 #img16 {
-    background-image: url();
+    background-image: url(imagens/GALERIA21.jpg);
 }
 
 #img17 {
-   background-image: url(); 
+   background-image: url(imagens/GALERIA8.png); 
 }
 
 #img18 {
-   background-image: url(); 
+   background-image: url(imagens/GALERIA11.jpg); 
 }
 
 #img19 {
-   background-image: url(); 
+   background-image: url(imagens/GALERIA17.jpg); 
 }
 
 #img20 {
-    background-image: url();
+    background-image: url(imagens/GALERIA18.jpg);
 }
 
 #img21 {
-    background-image: url();
+    background-image: url(imagens/GALERIA28.png);
 }
 
 #img22 {
