@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+main {
+    background-color: black;
+}
+
+header {
+    height: 140px;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.925);
+    z-index: 95;
+}
+
+
+h1 {
+    background-color: rgba(1, 1, 1, 0.925);
+    font-size: 6em;
+    letter-spacing: 10px;
+    width: 100vw;
+    height: 130px;
+    margin: auto;
+    left: 0;
+}
+
+#sanduiche {
+    display: none;
+}
+
+menu {
+    background-color: rgba(1, 1, 1, 0.925);
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    top: 15%;
+    z-index: 95;
+    display: block;
+}
+
+menu ul {
+    background-color: transparent;
+    width: 100vw;
+    height: 4px;
+    padding-left: 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+menu > ul > li {
+    color: black;
+    background-color: transparent;
+    margin: 0px;
+    width: 140px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+menu > ul > li:hover {
+    background-color: rgb(64, 64, 64);
+    cursor: pointer;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    height: 700px;
+    background-image: url(imagens/img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 20px;
+}
+
+.children {
+   display: none;
+} 
+
+article {
+    margin: auto;
+    width: 1000px;
+}
+
+article h2 {
+    padding-top: 130px;
+    padding-bottom: 70px;
+    font-size: 2em;
+}
+
+article p {
+    text-indent: 25px;
+    padding: 20px 40px 90px 40px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.imgpagina1 {
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoprincipal {
+    background-color: white;
+    background-image: url(imagens/PRINCIPAL.jpg);
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fotoprincipal2 {
+    background-color: white;
+    background-image: url(imagens/PRINCIPAL2.png);
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+section {
+    width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 2em;
+    color: white;
+}
+
+
+section p {
+    text-indent: 25px;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
+
+aside {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+aside h3 {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+}
+
+
+#lista {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    margin: auto;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+    column-count: 2;
+}
+
+#lista > li {
+    background-color: rgba(255, 255, 255, 0.874);
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+
+#lista a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 50px;
+}
+
+#lista a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    width: 600px;
+    text-align: center;
+    margin: 0px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+footer .dev {
+    font-size: 1em;
+}
+
+footer > .dev > a {
+    color: black;
+}
+
+.imgrodape {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: end;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logorodape {
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    background-image: url(imagens/LOGODESKTOP.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgrodape2 {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: end;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logorodape2 {
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    background-image: url(imagens/LOGODESKTOP.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*
+    estilo da página COMANDO
+*/
+
+.titulodiretores {
+    margin: 0px;
+    padding-top: 120px;
+}
+
+.childrenComando {
+    display: none;
+} 
+
+.articlecomando {
+    width: 1300px;
+}
+
+#container {
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.diretores {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.diretores p {
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.diretores:hover p {
+    display: block;
+}
+
+.textodiretores {
+    color: white;
+    font-weight: bold;
+    width: 700px;
+    margin: auto;
+    line-height: 2.2em;
+    text-align: justify;
+}
+
+/*
+    estilo da página GALERIA
+*/
+
+#sectiongaleria {
+    width: 1300px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fundogaleria {
+    height: 5000px;
+    width: 1200px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#contgaleria {
+    height: 600px;
+}
+
+.containergaleria {
+    background-color: rgb(255, 255, 255);
+}
+
+.childrenGaleria {
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/LOGOGALERIA.png
+    );
+    width: 100vw;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+.zoomborder {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.fotosgaleria {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    border: 2px solid rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+
+
+.asidegaleria {
+    margin-top: 70px;
+}
