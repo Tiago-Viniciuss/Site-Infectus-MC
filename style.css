@@ -282,7 +282,7 @@ footer > .dev > a {
 
 .childrenComando {
     background-color: rgb(0, 0, 0);
-    background-image: url(imagens/LOGO\ COMANDO.png
+    background-image: url(imagens/LOGOCOMANDO.png
     );
     width: 100vw;
     height: 500px;
@@ -439,6 +439,17 @@ h3 {
     justify-content: space-between;
     align-items: center;
 }
+
+.childrenGaleria {
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/LOGOGALERIA.png
+    );
+    width: 100vw;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
 
 .zoomborder {
     width: 284px;
