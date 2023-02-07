@@ -100,7 +100,7 @@ main {
 .container {
     background-color: rgb(0, 0, 0);
     padding-top: 50px;
-    height: 300px;
+    height: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,8 +110,8 @@ main {
     background-color: rgb(0, 0, 0);
     background-image: url(imagens/LOGO.png
     );
-    width: 300px;
-    height: 300px;
+    width: 100vw;
+    height: 370px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,8 +291,8 @@ footer > .dev > a {
     background-color: rgb(0, 0, 0);
     background-image: url(imagens/LOGOCOMANDO.png
     );
-    width: 300px;
-    height: 300px;
+    width: 100vw;
+    height: 370px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -451,8 +451,8 @@ h3 {
     background-color: rgb(0, 0, 0);
     background-image: url(imagens/LOGOGALERIA.png
     );
-    width: 300px;
-    height: 300px;
+    width: 100vw;
+    height: 370px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -550,7 +550,7 @@ h3 {
 }
 
 #img18 {
-   background-image: url(imagens/GALERIA11.jpg); 
+   background-image: url(imagens/GALERIA40.jpg); 
 }
 
 #img19 {
