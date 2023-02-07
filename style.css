@@ -101,6 +101,13 @@ main {
 
 .children {
     background-color: rgb(0, 0, 0);
+    background-image: url(imagens/LOGO.png
+    );
+    width: 100vw;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 } 
 
 article {
@@ -272,6 +279,17 @@ footer > .dev > a {
     align-items: center;
     justify-content: space-between;
 }
+
+.childrenComando {
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/LOGO\ COMANDO.png
+    );
+    width: 100vw;
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
 
 .diretores {
     width: 280px;
