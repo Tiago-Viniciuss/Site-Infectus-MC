@@ -98,9 +98,8 @@ article h2 {
 article p {
     text-indent: 25px;
     padding: 20px 40px 90px 40px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: center;
-    line-height: 2em;
 }
 
 .imgpagina1 {
@@ -135,9 +134,7 @@ article p {
 }
 
 section {
-    background-color: white;
-    height: 700px;
-    width: 100vw;
+    width: 1000px;
     margin: auto;
 }
 
@@ -145,7 +142,7 @@ section h2 {
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 2em;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 
@@ -154,10 +151,8 @@ section p {
     padding: 0px 40px;
     margin-bottom: 40px;
     font-size: 1.3em;
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
-    width: 1000px;
-    margin: auto;
 }
 
 aside {
@@ -167,7 +162,6 @@ aside {
     width: 700px;
     height: 350px;
     margin: auto;
-    margin-top: 80px;
     margin-bottom: 80px;
     padding: 0px;
     cursor: pointer;
