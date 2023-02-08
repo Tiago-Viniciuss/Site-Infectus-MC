@@ -1,3 +1,87 @@
-h1 {
+header {
     color: aqua;
+    height: 100px;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 9vw;
+}
+
+main {
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    padding-top: 80px;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.children {
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/LOGO.png
+    );
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.imgpagina1 {
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoprincipal {
+    background-color: white;
+    background-image: url(imagens/PRINCIPAL.jpg);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fotoprincipal2 {
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/PRINCIPAL2.png);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+aside {
+    width: 600px;
+}
+
+/*
+    estilo da página SEJA MEMBRO
+*/
+
+.fotoprincipal3 {
+    height: 500px;
+    width: 500px;
+}
+
+.fotoprincipal4 {
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
