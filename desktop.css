@@ -134,7 +134,9 @@ article p {
 }
 
 section {
-    width: 1000px;
+    background-color: white;
+    height: 700px;
+    width: 100vw;
     margin: auto;
 }
 
@@ -142,7 +144,7 @@ section h2 {
     padding-top: 40px;
     padding-bottom: 40px;
     font-size: 2em;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -151,8 +153,10 @@ section p {
     padding: 0px 40px;
     margin-bottom: 40px;
     font-size: 1.3em;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
+    width: 1000px;
+    margin: auto;
 }
 
 aside {
@@ -162,6 +166,7 @@ aside {
     width: 700px;
     height: 350px;
     margin: auto;
+    margin-top: 80px;
     margin-bottom: 80px;
     padding: 0px;
     cursor: pointer;
@@ -399,4 +404,31 @@ footer > .dev > a {
 
 .asidegaleria {
     margin-top: 70px;
+}
+
+/* 
+    estilo da página  SEJA MEMBRO
+*/
+
+h3 {
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 20px;
+}
+
+.fotoprincipal3 {
+    height: 600px;
+    width: 600px;
+}
+
+.fotoprincipal4 {
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.sejamembro {
+    padding: 40px;
 }
