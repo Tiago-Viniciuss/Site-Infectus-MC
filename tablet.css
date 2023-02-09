@@ -12,6 +12,7 @@ header h1 {
 
 menu {
     text-align: left;
+    display: none;
 }
 
 main {
@@ -73,6 +74,75 @@ main {
 
 aside {
     width: 600px;
+}
+
+footer {
+    height: 300px;
+}
+
+#secao h2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 2em;
+    padding-top: none;
+    text-shadow: none;
+}
+
+#secao p {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: justify;
+    padding: 0px 40px 40px 40px;
+    text-indent: 20px;
+    margin-bottom: 0px;
+    line-height: 1.8em;
+}
+
+
+.imgrodape {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: end;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logorodape {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    background-image: url(imagens/LOGODESKTOP.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgrodape2 {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: end;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logorodape2 {
+    width: 110px;
+    height: 150px;
+    background-color: white;
+    background-image: url(imagens/LOGODESKTOP.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -173,4 +243,13 @@ aside {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+section h3 {
+    color: black;
+}
+
+section p {
+    background-color: white;
+    padding: 40px 60px;
 }

@@ -10,7 +10,7 @@ function clickMenu() {
 
 function mudouTamanho() {
 
-if (window.innerWidth >= 768) {
+if (window.innerWidth >= 1200) {
     menu.style.display = 'block'
 } else {
     menu.style.display = 'none'
