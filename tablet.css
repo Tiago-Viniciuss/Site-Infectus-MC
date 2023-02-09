@@ -1,11 +1,17 @@
 header {
-    color: aqua;
+    color: rgb(0, 0, 0);
     height: 100px;
+    text-align: center;
 }
 
 header h1 {
     color: rgb(255, 255, 255);
     font-size: 9vw;
+    left: -1%;
+}
+
+menu {
+    text-align: left;
 }
 
 main {
@@ -68,6 +74,89 @@ main {
 aside {
     width: 600px;
 }
+
+
+/*
+    estilo da página COMANDO
+*/
+
+.articlecomando {
+    width: 900px;
+    margin: auto;
+}
+
+
+#container {
+    background-color: rgb(0, 0, 0);
+    width: 800px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.diretores {
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.diretores p {
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.diretores:hover p {
+    display: block;
+}
+
+.textodiretores {
+    color: white;
+    font-weight: bold;
+    width: 700px;
+    margin: auto;
+    line-height: 2.2em;
+    text-align: justify;
+}
+
+
+/*
+    estilo da página GALERIA
+*/
+
+#sectiongaleria {
+    width: 800px;
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fundogaleria {
+    height:6000px;
+    width: 800px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.fotosgaleria {
+    width: 300px;
+    height: 300px;
+}   
+
 
 /*
     estilo da página SEJA MEMBRO
