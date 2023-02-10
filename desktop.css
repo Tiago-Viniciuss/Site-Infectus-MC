@@ -4,12 +4,26 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(111, 111, 111);  /* creates padding around scroll thumb */
+}
+
 main {
     background-color: black;
 }
 
 header {
-    height: 100px;
+    height: 160px;
     text-align: center;
     background-color: rgba(1, 1, 1, 0.925);
 }
@@ -65,7 +79,7 @@ menu > ul > li:hover {
 }
 
 .container {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding-top: 50px;
     height: 700px;
     background-image: url(imagens/img.jpg);
@@ -138,18 +152,22 @@ section {
 section h2 {
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     font-size: 2em;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: white;
 }
 
 
 section p {
     text-indent: 25px;
     padding: 0px 40px;
+    margin-top: 0px;
     margin-bottom: 40px;
     font-size: 1.3em;
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -334,6 +352,29 @@ footer > .dev > a {
     text-align: justify;
 }
 
+.containercomando {
+    background-color: rgb(3, 3, 3);
+    width: 80vw;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.childrencomando{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    background-image: url(imagens/NSSF.png
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 /*
     estilo da página GALERIA
 */
@@ -370,7 +411,7 @@ footer > .dev > a {
     background-color: rgb(0, 0, 0);
     background-image: url(imagens/LOGOGALERIA.png
     );
-    width: 100vw;
+    width: 90vw;
     height: 600px;
     background-position: center;
     background-size: contain;
@@ -407,6 +448,27 @@ h3 {
     font-size: 1.5em;
     padding: 20px;
     margin: 20px;
+}
+
+.containermembros {
+    background-image: url(imagens/img.jpg);
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    height: 700px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#idvideo {
+   width: 50%;   
 }
 
 .fotoprincipal3 {
