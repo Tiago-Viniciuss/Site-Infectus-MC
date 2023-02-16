@@ -20,10 +20,11 @@ body::-webkit-scrollbar-thumb {
 
 main {
     background-color: black;
+    padding-bottom: 250px;
 }
 
 header {
-    height: 160px;
+    height: 180px;
     text-align: center;
     background-color: rgba(1, 1, 1, 0.925);
 }
@@ -44,45 +45,41 @@ h1 {
 }
 
 menu {
-    background-color: rgba(1, 1, 1, 0.925);
+    background-color: transparent;
     padding: 0px;
-    margin: 0px;
-    height: 50px;
-    width: 100vw;
+    margin: auto;
+    height: 40px;
+    width: 90%;
     position: fixed;
-    display: block;
-}
-
-menu ul {
-    background-color: rgba(1, 1, 1, 0.925);
-    width: 100vw;
-    height: 130px;
-    padding-left: 0px;
+    top: 15%;
+    left: 5%;
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: end;
     text-align: center;
+
+    z-index: 99;
 }
 
-menu > ul > li {
-    color: black;
+#menu a {
     background-color: transparent;
+    color: white;
+    padding: 10px 30px;
     margin: 0px;
-    width: 140px;
+    font-size: 1.5em;
+    text-decoration: none;
     border-radius: 5px;
-    letter-spacing: 1px;
 }
 
-menu > ul > li:hover {
-    background-color: rgb(64, 64, 64);
-    cursor: pointer;
+#menu a:hover {
+    background-color: rgb(46, 46, 46);
 }
 
 .container {
     background-color: rgb(0, 0, 0);
     padding-top: 50px;
-    height: 700px;
-    background-image: url(imagens/img.jpg);
+    height: 550px;
+    background-image: url(imagens/backgroundhome.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -97,20 +94,21 @@ menu > ul > li:hover {
 
 article {
     margin: auto;
-    width: 1000px;
+    width: 800px;
 }
 
-#articlemembros h2 {
-    padding-top: 0px;
-    padding-bottom: 70px;
-    font-size: 2em;
+article h2 {
+    font-size: 2.3em;
+    margin-top: 35px;
+    padding: 50px 0px;
 }
+
 
 article p {
     text-indent: 25px;
     padding: 20px 40px 90px 40px;
     font-size: 1.3em;
-    text-align: center;
+    text-align: justify;
 }
 
 .imgpagina1 {
@@ -145,15 +143,18 @@ article p {
 }
 
 section {
-    width: 1000px;
+    width: 800px;
+    height: 400px;
     margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 10px;
 }
+
 
 section h2 {
     padding-top: 40px;
-    padding-bottom: 40px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0px;
     font-size: 2em;
     color: rgb(0, 0, 0);
     background-color: white;
@@ -162,13 +163,13 @@ section h2 {
 
 section p {
     text-indent: 25px;
-    padding: 0px 40px;
+    padding: 40px 40px;
     margin-top: 0px;
     margin-bottom: 40px;
-    font-size: 1.3em;
+    font-size: 1.1em;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    text-align: center;
+    text-align: justify;
 }
 
 aside {
@@ -304,8 +305,23 @@ footer > .dev > a {
 
 .titulodiretores {
     margin: 0px;
-    padding-top: 120px;
+    padding-top: 80px;
+    font-size: 2.3em;
 }
+
+.containercomando {
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    height: 550px;
+    background-image: url(imagens/backgroundcomando.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 20px;
+}
+
 
 .childrenComando {
     display: none;
@@ -352,7 +368,7 @@ footer > .dev > a {
     text-align: justify;
 }
 
-.containercomando {
+#containercomando {
     background-color: rgb(3, 3, 3);
     width: 80vw;
     height: 600px;
@@ -381,6 +397,7 @@ footer > .dev > a {
 
 #sectiongaleria {
     width: 1300px;
+    height: 5000px;
     padding-top: 90px;
     display: flex;
     justify-content: center;
@@ -445,7 +462,7 @@ footer > .dev > a {
 */
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     padding: 20px;
     margin: 20px;
 }
@@ -486,4 +503,10 @@ h3 {
 
 .sejamembro {
     padding: 40px;
+}
+
+#articlemembros h2 {
+    padding-top: 0px;
+    padding-bottom: 70px;
+    font-size: 2.3em;
 }

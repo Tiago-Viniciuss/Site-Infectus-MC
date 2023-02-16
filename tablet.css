@@ -26,12 +26,25 @@ header h1 {
 }
 
 menu {
+    margin-top: 50px;
     text-align: left;
     display: none;
 }
 
+
 main {
     background-color: black;
+}
+
+article {
+    margin: auto;
+    width: 600px;
+}
+
+article h2 {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 #articlemembros h2 {
@@ -216,7 +229,7 @@ footer {
     text-align: justify;
 }
 
-.containercomando {
+#containercomando {
     background-color: rgb(3, 3, 3);
     width: 80vw;
     height: 500px;
@@ -224,7 +237,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 .childrencomando{
@@ -303,6 +317,15 @@ footer {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+#articlemembros h2 {
+    font-size: 2em;
+}
+
+section {
+    margin: auto;
+    width: 650px;
 }
 
 section h3 {

@@ -61,7 +61,7 @@ h1 {
 #sanduiche {
     color: white;
     background-color: black;
-    font-size: 40px;
+    font-size: 35px;
     cursor: pointer;
     position: fixed;
     z-index: 99;
@@ -78,26 +78,15 @@ menu {
     position: fixed;
     top: 0;
     display: none;
+    flex-direction: column;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.919);
 }
 
-menu ul {
-    font-size: 1.5em;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-}
-
-menu ul li {
-    padding: 10px 0px;
-    margin: 5px 0px;
-}
-
-
 
 menu a {
-    padding: 5px 5px;
+    width: 120px;
+    padding: 15px 0px 15px 5px;
+    font-size: 1.4em;
     color: rgb(255, 252, 252);
     text-decoration: none;
     font-family: 'ARMY RUST';
