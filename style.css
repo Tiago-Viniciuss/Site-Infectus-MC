@@ -69,25 +69,32 @@ h1 {
     left: 0;
 }
 
-menu {
+#menu {
     background-color: rgba(1, 1, 1, 0.925);
     padding-top: 60px;
     padding-left: 5px;
     width: 80vw;
-    height: 700px;
+    height: 0px;
     position: fixed;
     top: 0;
-    display: none;
+    display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.919);
-    transition: all 1s;
+    
+    transition: 1s;
+    visibility: hidden;
+    overflow-y: hidden;
 }
 
+#menu.active {
+    visibility: visible;
+    height: 800px;
+}
 
 menu a {
     width: 120px;
     padding: 15px 0px 15px 5px;
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: rgb(255, 252, 252);
     text-decoration: none;
     font-family: 'ARMY RUST';
@@ -497,6 +504,7 @@ h3 {
     height: 284px;
     overflow: hidden;
     border: 2px solid white;
+    border-radius: 5px;
 }
 
 .fotosgaleria {
@@ -504,6 +512,7 @@ h3 {
     height: 280px;
     background-color: black;
     border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
     background-size: cover;
     background-repeat: no-repeat;
     transition: all .5s;
