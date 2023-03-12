@@ -178,12 +178,12 @@ legend {
     height: 130px;
 }
 
-#motoSegundaGuerra {
+#motociclistaSegundaGuerra {
     display: none;
- }
+}
  
  
- #motoSegundaGuerra2 {
+#motoSegundaGuerra2 {
      background-image: url(../imagens/motossegundaguerra.jpg);
      width: 300px;
      height: 280px;
