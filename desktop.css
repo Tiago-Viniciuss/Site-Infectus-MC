@@ -419,7 +419,12 @@ footer > .dev > a {
     estilo da página GALERIA
 */
 
+#maingaleria {
+    background-color: black;
+}
+
 #sectiongaleria {
+    background-color: black;
     width: 1300px;
     height: 5000px;
     padding-top: 90px;
