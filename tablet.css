@@ -32,6 +32,30 @@ menu {
 }
 
 
+#menu {
+    background-color: rgba(1, 1, 1, 0.973);
+    width: 100vw;
+    height: 0px;
+    padding-left: 5px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.919);
+    
+    transition: 1s;
+    visibility: hidden;
+    overflow-y: hidden;
+    z-index: 98;
+}
+
+#menu.active {
+    visibility: visible;
+    height: 800px;
+    padding-top: 60px; 
+}
+
+
 main {
     background-color: black;
 }
@@ -85,7 +109,18 @@ article h2 {
 
 .fotoprincipal {
     background-color: white;
-    background-image: url(imagens/PRINCIPAL.jpg);
+    background-image: url(imagens/fotofundo.png);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fotoprincipal1 {
+    background-color: white;
+    background-image: url(imagens/fotofundo2.jpg);
     width: 500px;
     height: 500px;
     background-repeat: no-repeat;
@@ -96,7 +131,7 @@ article h2 {
 
 .fotoprincipal2 {
     background-color: rgb(0, 0, 0);
-    background-image: url(imagens/PRINCIPAL2.png);
+    background-image: url(imagens/fotofundo3.png);
     width: 500px;
     height: 500px;
     background-repeat: no-repeat;

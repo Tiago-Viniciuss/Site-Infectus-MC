@@ -156,6 +156,11 @@ article p {
     text-align: justify;
 }
 
+.citacao {
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
 
 [data-anime] {
     opacity: 0;

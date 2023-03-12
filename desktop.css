@@ -95,6 +95,10 @@ h1 {
    display: none;
 } 
 
+main {
+    padding-bottom: 0px;
+}
+
 article {
     margin: auto;
     width: 800px;
@@ -112,6 +116,11 @@ article p {
     padding: 20px 40px 90px 40px;
     font-size: 1.3em;
     text-align: justify;
+}
+
+.citacao {
+    padding-bottom: 0px;
+    font-weight: bold;
 }
 
 .imgpagina1 {
