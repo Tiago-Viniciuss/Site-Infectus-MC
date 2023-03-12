@@ -124,7 +124,7 @@ article p {
 
 .fotoprincipal {
     background-color: rgb(0, 0, 0);
-    background-image: url(imagens/PRINCIPAL.jpg);
+    background-image: url(imagens/fotofundo.png);
     width: 700px;
     height: 700px;
     background-repeat: no-repeat;
@@ -133,9 +133,21 @@ article p {
 
 }
 
+.fotoprincipal1 {
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/fotofundo2.jpg);
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
 .fotoprincipal2 {
     background-color: rgb(0, 0, 0);
-    background-image: url(imagens/PRINCIPAL2.png);
+    background-image: url(imagens/fotofundo3.png);
     width: 700px;
     height: 700px;
     background-repeat: no-repeat;
@@ -147,7 +159,7 @@ article p {
 
 section {
     width: 800px;
-    height: 400px;
+    height: 800px;
     margin: auto;
     margin-top: 150px;
     margin-bottom: 100px;
