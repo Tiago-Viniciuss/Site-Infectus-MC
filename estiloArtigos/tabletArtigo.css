@@ -1,0 +1,329 @@
+
+@font-face {
+    font-family: 'ARMY RUST';
+    src:url('../fonte/ARMY\ RUST.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    Artigo Origem Motoclubismo
+*/
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(111, 111, 111);  /* creates padding around scroll thumb */
+  }
+  
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
+}
+
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'ARMY RUST';
+    text-align: center;
+    text-shadow: 5px 5px 8px black;
+    letter-spacing: 2px;
+    font-size: 4em;
+    width: 100vw;
+    height: 50px;
+    padding-top: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#navigation {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../imagens/navigationfundo.png);
+    background-size: cover;
+    font-size: 35px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0; 
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+#menu {
+    background-color: rgba(1, 1, 1, 0.973);
+    width: 100vw;
+    height: 0px;
+    padding-left: 5px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.919);
+    
+    transition: 1s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#menu.active {
+    visibility: visible;
+    height: 800px;
+    padding-top: 60px; 
+}
+
+menu a {
+    width: 120px;
+    padding: 15px 0px 15px 5px;
+    font-size: 1.5em;
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    font-family: 'ARMY RUST';
+}
+
+menu a:hover {
+    text-decoration: underline;
+}
+
+
+[data-anime] {
+    opacity: 0;
+    transition: 0.6s;
+}
+
+[data-anime = "left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime = "right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+   opacity: 1;
+   transform: translate3d(0px, 0px, 0px);
+}
+
+#articleOrigem {
+    padding-top: 150px;
+    width: 500px;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+
+#articleOrigem h2 {
+    color: white;
+    text-align: center;
+}
+
+#articleOrigem p {
+    color: white;
+    text-align: justify;
+    text-indent: 25px;
+    padding: 30px;
+    line-height: 2em;
+}
+
+legend {
+    font-size: 0.9em;
+    margin: 10px;
+    text-align: center;
+}
+
+.imagensArtigo {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#primeiraMotocicleta {
+    background-image: url(../imagens/primeiramotocicleta.png);
+    width: 400px;
+    height: 320px;
+}
+
+#primeirosEncontros {
+    background-image: url(../imagens/primeirosEncontros.png);
+    width: 500px;
+    height: 180px;
+}
+
+#motoSegundaGuerra {
+   display: none;
+}
+
+
+#motoSegundaGuerra2 {
+    background-image: url(../imagens/motossegundaguerra.jpg);
+    width: 450px;
+    height: 400px;
+    margin: auto;
+}
+
+#motociclistasHollister {
+    background-image: url(../imagens/motociclistas-hollister.jpg);
+    width: 450px;
+    height: 450px;
+}
+
+#motoclubCampos {
+    background-image: url(../imagens/primeiroMCBrasil.jpg);
+    width: 500px;
+    height: 300px;
+}
+
+address {
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.fotoClube {
+    background-image: url(../imagens/LOGOCOMANDO.png);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+section {
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+section h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 1.3em;
+    text-shadow: none;
+}
+
+section p {
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+    text-indent: 20px;
+    margin-bottom: 0px;
+    line-height: 1.8em;
+}
+
+
+aside {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px black;
+}
+
+aside h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    height: 40px;
+}
+
+#lista {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    margin: auto;
+    width: 150px;
+    text-align: left;
+    font-weight: bold;
+    list-style-type: circle;
+    padding: 10px 0px;
+    display: block;
+}
+
+#lista > li {
+    background-color: rgba(255, 255, 255, 0.874);
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+
+#lista a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 50px;
+}
+
+#lista a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    text-align: center;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+footer .dev {
+    font-size: 0.5em;
+}
+
+footer > .dev > a {
+    color: black;
+}

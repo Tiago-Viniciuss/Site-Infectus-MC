@@ -1,0 +1,397 @@
+
+@font-face {
+    font-family: 'ARMY RUST';
+    src:url('../fonte/ARMY\ RUST.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    Artigo Origem Motoclubismo
+*/
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(111, 111, 111);  /* creates padding around scroll thumb */
+  }
+  
+header {
+    width: 100vw;
+    height: 180px;
+    text-align: center;
+    background-color: rgba(1, 1, 1, 0.925);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.66);
+}
+
+
+h1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'ARMY RUST';
+    text-align: center;
+    text-shadow: 5px 5px 8px black;
+    letter-spacing: 2px;
+    font-size: 6em;
+    width: 100vw;
+    height: 100px;
+    margin: auto;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    padding-top: 0px;
+    margin: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#navigation {
+    display: none;
+}
+
+#menu {
+    background-color: transparent;
+    padding: 0px;
+    margin: auto;
+    height: 40px;
+    width: 90%;
+    position: fixed;
+    top: 15%;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    z-index: 99;
+    visibility: visible;
+    transition: none;
+    
+}
+
+#menu a {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    margin: 0px;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#menu a:hover {
+    background-color: rgb(46, 46, 46);
+}
+
+
+[data-anime] {
+    opacity: 0;
+    transition: 0.6s;
+}
+
+[data-anime = "left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime = "right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+   opacity: 1;
+   transform: translate3d(0px, 0px, 0px);
+}
+
+#articleOrigem {
+    padding-top: 220px;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+
+.articleP {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 25px;
+}
+
+.articleP p {
+    font-size: 1.2em;
+    width: 50%;
+    margin-top: 0px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    text-indent: 25px;
+    padding: 30px;
+    font-size: 1.3em;
+    line-height: 2.1em;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+legend {
+    font-size: 1.1em;
+    margin: 10px;
+    text-align: center;
+}
+
+.imagensArtigo {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#primeiraMotocicleta {
+    background-image: url(../imagens/primeiramotocicleta.png);
+    width: 300px;
+    height: 280px;
+    margin: 35px;
+}
+
+#primeirosEncontros {
+    background-image: url(../imagens/primeirosEncontros.png);
+    width: 700px;
+    height: 270px;
+}
+
+#motoSegundaGuerra {
+    background-image: url(../imagens/motossegundaguerra.jpg);
+    width: 370px;
+    height: 350px;
+    margin: 25px;
+}
+
+#motociclistaSegundaGuerra {
+    display: none;
+}
+
+#motociclistasHollister {
+    background-image: url(../imagens/motociclistas-hollister.jpg);
+    width: 450px;
+    height: 450px;
+    margin: 35px;
+}
+
+#motoclubCampos {
+    background-image: url(../imagens/primeiroMCBrasil.jpg);
+    width: 650px;
+    height: 300px;
+    margin-top: 35px;
+}
+
+address {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+a {
+    color: white;
+}
+
+.fotoClube {
+    background-image: url(../imagens/LOGOCOMANDO.png);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+section {
+    width: 800px;
+    height: 650px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    padding-top: 35px;
+    background-color: white;
+    color: black;
+}
+
+section h2 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 1.3em;
+    text-shadow: none;
+}
+
+section p {
+    text-align: justify;
+    padding: 35px;
+    text-indent: 20px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    line-height: 1.1em;
+    width: 450px;
+    color: black;
+}
+
+
+aside {
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    width: 700px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+aside h3 {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+}
+
+
+#lista {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    margin: auto;
+    width: 500px;
+    height: 120px;
+    text-align: center;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+    column-count: 2;
+}
+
+#lista > li {
+    background-color: rgba(255, 255, 255, 0.874);
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+
+#lista a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 50px;
+}
+
+#lista a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    text-align: center;
+    margin: 0px;
+    font-weight: bolder;
+    color: black;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+footer .dev {
+    font-size: 1em;
+}
+
+footer > .dev > a {
+    color: black;
+}
+
+.imgrodape {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: end;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logorodape {
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    background-image: url(../imagens/LOGODESKTOP.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgrodape2 {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: end;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.logorodape2 {
+    width: 220px;
+    height: 300px;
+    background-color: white;
+    background-image: url(../imagens/LOGODESKTOP.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
