@@ -24,6 +24,22 @@ header h1 {
     font-size: 9vw;
 }
 
+#navigation {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/navigationfundo.png);
+    background-size: cover;
+    font-size: 85px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0; 
+    width: 70px;
+    height: 70px;
+    border: none;
+}
+
 menu {
     margin-top: 50px;
     text-align: left;
