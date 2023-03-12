@@ -111,6 +111,41 @@ menu a:hover {
     text-decoration: underline;
 }
 
+#temaBotaoClaro {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#temaBotaoClaro:hover {
+    cursor: pointer;
+}
+
+#temaBotaoEscuro {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+}
+
+#temaBotaoEscuro:hover {
+    cursor: pointer;
+}
+
 
 [data-anime] {
     opacity: 0;
@@ -169,9 +204,9 @@ legend {
 }
 
 #primeiraMotocicleta {
-    background-image: url(../imagens/primeiramotocicleta.png);
+    background-image: url(../imagens/primeiramotocicleta.jpg);
     width: 400px;
-    height: 320px;
+    height: 280px;
 }
 
 #primeirosEncontros {

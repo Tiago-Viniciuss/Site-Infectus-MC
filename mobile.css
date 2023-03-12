@@ -350,10 +350,10 @@ footer > .dev > a {
     background-color: rgb(0, 0, 0);
     background-image: url(imagens/LOGOCOMANDO.png
     );
-    width: 100vw;
-    height: 410px;
+    width: 320px;
+    height: 350px;
     margin: auto;
-    padding-top: 25px;
+    margin-top: 70px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

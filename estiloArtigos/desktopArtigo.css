@@ -103,6 +103,41 @@ h1 {
     background-color: rgb(46, 46, 46);
 }
 
+#temaBotaoClaro {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+#temaBotaoClaro:hover {
+    cursor: pointer;
+}
+
+#temaBotaoEscuro {
+    background-color: transparent;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+}
+
+#temaBotaoEscuro:hover {
+    cursor: pointer;
+}
+
 
 [data-anime] {
     opacity: 0;
@@ -179,9 +214,9 @@ legend {
 }
 
 #primeiraMotocicleta {
-    background-image: url(../imagens/primeiramotocicleta.png);
-    width: 300px;
-    height: 280px;
+    background-image: url(../imagens/primeiramotocicleta.jpg);
+    width: 360px;
+    height: 250px;
     margin: 35px;
 }
 
@@ -230,8 +265,8 @@ a {
     background-image: url(../imagens/LOGOCOMANDO.png);
     background-size: cover;
     background-position: center;
-    width: 600px;
-    height: 450px;
+    width: 350px;
+    height: 500px;
     margin: auto;
     margin-top: 100px;
 }

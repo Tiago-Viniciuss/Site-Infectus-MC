@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 </head>
-<body onresize="mudouTamanho()">
+<body onresize="mudouTamanho()" id="bodyArticle">
     <header>
         <h1>
             INFECTUS MC
         </h1>
-        <button id="navigation" onclick="clickMenu()"></button>
+        <button id="navigation" onclick="clickMenu()"></button>~
+        <button id="temaBotaoClaro" class="material-symbols-outlined" onclick="mudarTemaEscuro()">light_mode</button>
+        <button id="temaBotaoEscuro" class="material-symbols-outlined" onclick="mudarTemaClaro()">dark_mode</button>
     </header>
     <menu id="menu">
         <a href="index.html">Home</a>
@@ -27,7 +29,7 @@
        <a href="#">Playlist</a><a href="#">Canal</a>
     </menu>
             <article id="articleOrigem">
-                <h2>A Origem do Motoclubismo</h2>
+                <h2 id="tituloArtigo">A Origem do Motoclubismo</h2>
              <div class="articleP">
                  <p>
                     A primeira motocicleta em produção do mundo foi a Hildebrand & Wolfmüller, fabricada na Alemanha em 1894. Com um motor a vapor de dois cilindros, ela tinha uma potência de 2,5 cavalos e podia atingir uma velocidade máxima de cerca de 45 km/h. A Hildebrand & Wolfmüller tinha um quadro de aço tubular e rodas de madeira com pneus sólidos. Embora tenha sido produzida por apenas alguns anos, a motocicleta foi um marco na história do motociclismo e estabeleceu o padrão para as motocicletas modernas. 
@@ -87,13 +89,13 @@
             </p>
             </article>
 
-            <address>Artigo escrito por <a href="https://www.instagram.com/_razorman/" target="_blank">Machado</a></address>
+            <address id="autor">Artigo escrito por <a id="linkAutor" href="https://www.instagram.com/_razorman/" target="_blank">Machado</a></address>
        
             <div class="fotoClube" data-anime="left"></div>
       
         <section id="secao" data-anime="left">
                 <h2><strong>NASCEMOS FORTES,<br>SEMPRE FORTES. </strong></h2>
-                <p>
+                <p id="pSessao">
                     A <strong>filosofia</strong> que o <strong>Infectus MC</strong> carrega é
                     a <strong>união</strong> entre seus membros, com enorme dedicação da diretoria para todo o clube. E como toda <strong>união faz a força</strong>, podemos te certificar que <strong>somos sempre fortes</strong>, pois estamos sempre unidos nos melhores e nos piores momentos. Como uma família. 
                     E isso não surgiu da noite para o dia. Desde antes da fundação, em reuniões entre os membros do clube, já se discutia esse tipo de assunto. O que possibilitou todo o foco do MC para essa <strong>parceria</strong> entre os seus integrantes. Desde o <strong>respeito</strong> ao cargo mais alto, que é o <strong>presidente</strong>, até o membro que acabou de entrar, o <strong>próspero</strong>. Mar calmo não faz bom marinheiro, assim como estradas sem buracos não fazem um bom motociclista. E é nos 'caminhos mais difíceis' que nós nos unimos ainda mais. E essa tecla sempre será batida! <br> <br> <strong>N.F.S.F.</strong>
@@ -119,10 +121,10 @@
         <div class="imgrodape">
             <div class="logorodape"></div>
         </div>
-        <p>Infectus Brasil <sup>®</sup><br>
+        <p id="pRodape">Infectus Brasil <sup>®</sup><br>
             Todos os direitos reservados <sup>®</sup>
         </p> <br>
-        <p class="dev">Desenvolvido por <a href="https://www.linkedin.com/in/tiago-vinicius/" target="_blank">Tiago Vinícius</a></p>
+        <p id="pDev" class="dev">Desenvolvido por <a href="https://www.linkedin.com/in/tiago-vinicius/" target="_blank">Tiago Vinícius</a></p>
         <div class="imgrodape2">
             <div class="logorodape2"></div>
         </div>
