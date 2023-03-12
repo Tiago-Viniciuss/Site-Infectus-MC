@@ -58,23 +58,27 @@ h1 {
     z-index: 99;
 }
 
-#sanduiche {
+#navigation {
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    background-image: url(imagens/navigationfundo.png);
+    background-size: cover;
     font-size: 35px;
     cursor: pointer;
     position: fixed;
     z-index: 99;
     top: 0;
-    left: 0;
+    left: 0; 
+    width: 50px;
+    height: 50px;
+    border: none;
 }
 
 #menu {
     background-color: rgba(1, 1, 1, 0.925);
-    padding-top: 60px;
-    padding-left: 5px;
     width: 80vw;
     height: 0px;
+    padding-left: 5px;
     position: fixed;
     top: 0;
     display: flex;
@@ -89,6 +93,7 @@ h1 {
 #menu.active {
     visibility: visible;
     height: 800px;
+    padding-top: 60px; 
 }
 
 menu a {
@@ -151,6 +156,25 @@ article p {
     text-align: justify;
 }
 
+
+[data-anime] {
+    opacity: 0;
+    transition: 0.6s;
+}
+
+[data-anime = "left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime = "right"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime].animate {
+   opacity: 1;
+   transform: translate3d(0px, 0px, 0px);
+}
+
 .imgpagina1 {
     background-color: rgb(0, 0, 0);
     height: 400px;
@@ -161,7 +185,18 @@ article p {
 
 .fotoprincipal {
     background-color: white;
-    background-image: url(imagens/PRINCIPAL.jpg);
+    background-image: url(imagens/fotofundo.jpg);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fotoprincipal1 {
+    background-color: white;
+    background-image: url(imagens/PRINCIPAL2.png);
     width: 300px;
     height: 300px;
     background-repeat: no-repeat;
@@ -339,7 +374,7 @@ footer > .dev > a {
 
 
 #alessandro {
-    background-image: url(imagens/GALERIA11.jpg);
+    background-image: url(imagens/alessandro-p.png);
 }
 
 #alessandro:hover {
@@ -348,7 +383,7 @@ footer > .dev > a {
 
 
 #clecio {
-    background-image: url(imagens/CLECIO.jpg);
+    background-image: url(imagens/clecio-vp.png);
 }
 
 #clecio:hover {
