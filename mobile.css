@@ -87,6 +87,7 @@ h1 {
     transition: 1s;
     visibility: hidden;
     overflow-y: hidden;
+    z-index: 98;
 }
 
 #menu.active {
