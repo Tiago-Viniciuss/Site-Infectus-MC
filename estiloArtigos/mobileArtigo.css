@@ -183,6 +183,7 @@ menu a:hover {
     text-align: justify;
     text-indent: 25px;
     padding: 30px;
+    line-height: 2em;
 }
 
 legend {
